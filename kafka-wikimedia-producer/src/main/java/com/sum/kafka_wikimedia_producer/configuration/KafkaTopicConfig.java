@@ -10,7 +10,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic topic() {
-        return TopicBuilder.name("wikimedia-recent-changes")
+        return TopicBuilder.name("wikimedia-recent-changes-webflux")
                 .build();
     }
 }
